@@ -1,0 +1,372 @@
+
+body::after {
+  content: "";
+  background-image:url(img/1.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+    border: border: 2px, solid #7BB5FD;
+}
+
+
+
+.butt {
+    font-family: Verdana;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    background-color: #FFFACD;
+    display: inline; 
+    font-weight: bold;
+    border: 2px, solid #EE2C2C;
+    border-radius: 40px;
+    opacity: 0.95;
+    padding: 10px 3% 10px 3%;
+}
+
+
+.reg {
+    font-family: Verdana;
+    font-size: 14px;
+    border: 20px;
+    border-color: #000000;
+    background-color: #FFFACD;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+    left: 78%;
+    display: inline-block;
+    opacity: 0.95;
+    border-radius: 40px;
+    padding: 5px 1.2% 5px 1.2%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-family: Verdana;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.main {
+     position: relative;
+    top: -30px;
+    width: 100%;
+    text-align: justify;
+    border: 20px, solid;
+    border-radius: 40px;
+    background-color: #FFFACD;
+    opacity: 0.85;  
+}
+
+.main1 {
+     position: relative;
+    top: -30px;
+    bottom: -30px;
+    width: 100%;
+    text-align: justify;
+    border: 20px, solid;
+    border-radius: 40px;
+    background-color: #FFFACD;
+    opacity: 0.85;
+    
+}
+
+#h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Verdana;
+    margin-top: 15px;
+}
+
+#h3 {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Verdana", sans-serif;
+}
+
+#citation {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.golovna {
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: "Verdana";
+} 
+
+#gol1 {
+    
+    float:left;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    
+}
+
+#gol2 {
+    float:left;
+    height: 350px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+#gol3 {
+    float:right;
+    height: 350px;
+    width: 600px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+
+
+
+#kom1 {
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 400px;
+    margin-bottom: -35px;
+    font-family: "Verdana";
+}
+
+#kom2 {
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: px;
+}
+
+.footer {
+    display: inline;
+    border: 20px, solid;
+    border-radius: 40px;
+    opacity: 0.85;
+    background-color: #FFFACD;
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 29%;
+    padding: 5px 3% 5px 3%;
+}
+
+#gal1 {
+    height: 350px;
+    width: 550px;
+    margin-left: 28%;
+}
+
+#cursor1 {
+    float: left;
+    margin-top: -155px;
+    margin-left: 10px;
+}
+
+#cursor2 {
+    float:right;
+    margin-top: -155px;
+}
+
+#inf {
+    float:left;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+    text-align: justify;
+    font-family: Verdana;
+}
+
+img {
+    opacity: 1;
+}
+
+#ist {
+    float:left;
+    padding: 10px;
+}
+
+.ist {
+    text-align: justify;
+    padding: 10px;
+    font-family: Verdana;
+}
+
+.reg1 {
+    font-family: Verdana;
+    margin-left: 20%;
+}
+
+#reg1 {
+    font-family: Verdana;
+    margin-left: 37%;
+}
+
+#log {
+    margin-left: 13%;
+}
+
+#email {
+    margin-left: 12%;
+}
+
+#pass {
+    margin-left: 11%;
+}
+
+#sex {
+    margin-left: 14%;
+}
+
+#tel {
+    margin-left: 2%;
+}
+
+#1map {
+    width: 30%;
+    height: 30%;
+}
+
+#svg {
+  float: left;
+    height: 19%;
+    width: 19%;
+}
+
+#photo {
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    border-radius: 15px;
+}
+
+#im {
+    padding-top: 10px;
+}
+
+h3, h1 {
+    text-align: center;
+}
+
+input.button{
+    height: 25px;
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: -5px;
+    display: inline;
+}
+
+#comment-div{
+    height: 260px;
+    width: 80%;
+    margin: 30px auto 40px auto;
+    border-radius: 20px;
+}
+#comments{
+    height: 160px;
+    overflow: auto;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+}
+#beard{
+    float: left;
+}
+#sas-comments{
+    height: 400px;
+    width: 80%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tablet{
+    width: 100%;
+}
+#sas-new-comments{
+    height: 210px;
+    width: 80%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+#container{
+position: absolute;
+top: 10px;
+left: 60px;
+height: 150px;
+width: 470px; /* 3 изоб. по 150px в ширину и 10px отступа между ними = 3*(150) + 2*(10) = 470 */
+overflow: hidden;
+}
+ 
+#container img{
+position: absolute;
+top: 0px;
+height: 150px;
+width: 150px;
+cursor: pointer;
+overflow: hidden;
+}
+ 
+#carouselLeft{
+position: absolute;
+top: 60px;
+left: 0px;
+cursor: pointer;
+}
+ 
+#carouselRight{
+position: absolute;
+top: 60px;
+left: 540px;
+cursor: pointer;
+}
+
+#thumbs { padding-top: 10px; overflow: hidden; }
+#thumbs img, #largeImage {
+    border: 1px solid gray;
+    padding: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+#thumbs img {
+    float: left;
+    margin-right: 6px;
+}
+#description {
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    width: 525px;
+    margin: 5px;
+}
+#panel { position: relative; }
+
+a {text-decoration: none;}
+.fancybox img {
+	margin-bottom: 4px;
+	width: 260px;
+	height: 150px;
+}
