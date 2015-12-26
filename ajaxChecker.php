@@ -21,3 +21,4 @@ break;
     }
 echo $result;
 }
+nice code!
