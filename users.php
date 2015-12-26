@@ -14,3 +14,4 @@ for($j=0; $j<$user_counter; $j++){
         ', Email :'.$userok[$j][3].', Name: '.$userok[$j][4].'<form method="post"><input type="hidden" name="index" value="'.$j.'"><input type="submit" value="Ban/unban ('.($j+1).')" name="banunban">
             </form> '.'<br>';
 }
+Hello;D
