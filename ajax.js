@@ -14,7 +14,7 @@ xmlhttp = new XMLHttpRequest();
     }
 return xmlhttp;
   }
-
+//*asdasd*//
 
 function checkLogin(login) {
 	if(login!=''){
